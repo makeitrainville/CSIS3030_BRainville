@@ -2,17 +2,14 @@
 	include("global.php");
 	include("header.php");
 
-?>
+$sql= "SELECT * FROM categories ";
+$query = mysqli_query($connection,$sql); 
 
-<?
-$sql = "SELECT * FROM categories ="  .intval($_GET["id"]);
+while($row = mysqli_fetch_array($query)) : ?>
+    <li class="categories"><? echo $row['category_name'];?></li>
+ <? endwhile; 
 
-$result= mysqli_query($connection,$sql);
+//<a href="product_list.php?category_id=7">Tennis Equipment</a>
 
-echo $result;
-?>
-
-
-<?
 	include("footer.php");
 ?>

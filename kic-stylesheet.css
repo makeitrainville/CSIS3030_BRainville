@@ -2,7 +2,7 @@
 **  Global
 **------------------------------------------------------------*/
 body {
-	background: #fff url(img/bg_body.jpg) repeat-x 0 173px;
+	background: #fff;
 	font-family: tahoma, serif;
 	font-size: 75%;
 	text-align: center; /* IE Fix */
