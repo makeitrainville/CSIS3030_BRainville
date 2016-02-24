@@ -4,18 +4,12 @@
 
 ?>
 
-<?
-	
-	if ($_SESSION["id"] != "") {
-		echo "Welcome, " . $_SESSION["firstname"] . "<br />"; 
+<p>Welcome to Bearded, click below to begin shopping!</p>
+<br /><br />
 
-		echo 'Click <a href=\"category_list.php\">here</a> to logout<br /><br />';
+<?	
+echo "<a href=\"category_list.php\">Click Here For Categories</a><br /><br />";
 		
-	} else {
-	
-		echo "Click <a href=\"category_list.php\">here</a> to shop! <br /><br />";
-		
-	}
 
 
 	

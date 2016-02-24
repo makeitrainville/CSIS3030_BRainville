@@ -1,23 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" > 
+<!DOCTYPE html > 
 
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html class="no-js" lang="en">
 <head>
-	<title>Welcome</title>
-	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=iso-8859-1" />
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />	
-	<meta http-equiv="imagetoolbar" content="no" />
-	<link href="kic-stylesheet.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>BEARDED</title>
+	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<div id="container">
+		<div class="row">
 		<div id="header">
-			<h1 title="keeping it clean">THE RESTAURANT</h1>
-			<h2 title="keeping it clean">THE RESTAURANT</h2>
+			<img src="img/bearded.png" width="25%">
 		</div>
 		<ul id="nav">
 				<li><a href="index.php" title="Home">Home</a></li>
-				<li><a href="menu.php" title="Menu">Menu</a></li>
+				<li><a href="category_list.php" title="Products">Products</a></li>
 		</ul>
